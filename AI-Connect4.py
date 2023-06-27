@@ -330,7 +330,7 @@ def playerMin(n, p, pattern):
 #################################################################
 
 def alphaBeta(root, maxDepth, pattern):
-    # AlphaBeta algorithm, for more information please follow this link : https://en.wikipedia.org/wiki/Alphabeta
+    # AlphaBeta algorithm, for more information please follow this link : https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning
     eval, move = playerMaxAB(root, maxDepth, float('-inf'), float('inf'), pattern)    
     return move
 
