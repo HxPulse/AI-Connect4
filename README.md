@@ -2,10 +2,10 @@
 Python AIs and learning algorithms (MiniMax, AlphaBeta, MCTS) made for Connect 4.
 Each function has a commented explanation for better understanding.
 
-# Wdym AI playing Connect 4 ?
+# What does it mean AI playing Connect 4 ?
 
-Using evaluation functions, game simulations and by following optimized schemes, we can create and develop AIs to play a board game with the best level possible.
-In this project we're specifically focusing on the board game Connect 4, but it's important to understand that this can be adapted to any board game as long as the rules are respected.
+Using evaluating functions, game simulations and by following optimized schemes, we can create and develop AIs to play a board game with the best level possible.
+In this project we are specifically focusing on the Connect 4 board game, but it's important to understand that this can be adapted to any board game as long as the rules are respected.
 Learning how to properly play the game and evaluating the state of a game at any given time might be harder depending on the game you chose.
 
 # MiniMax
@@ -13,9 +13,9 @@ Learning how to properly play the game and evaluating the state of a game at any
 If you are curious enough then I advise you to read the following : https://en.wikipedia.org/wiki/Minimax
 
 ### TLDR : 
-- Create a function that gives a score to a grid wether a victory is likely or not.
-- Using this function, simulate the best moves possible from both players until a certain depth that you chose.
-- Chose the move that has the best final score.
+- Creates a function that gives the score of a grid and whether a victory is likely or not.
+- Using this function, simulates the best possible moves from both players until a certain pre-defined depth si reached.
+- Choses the move that has the best final score.
 
 # AlphaBeta
 
@@ -34,8 +34,8 @@ Learn more by reading the following : https://en.wikipedia.org/wiki/Monte_Carlo_
 
 # Playing with the algorithms
 
-Parameters to play with
-- Evaluations for AlphaBeta and MiniMax, any setting can be change to see how the score fluctuates
+Parameters to play with:  
+- Evaluations for AlphaBeta and MiniMax, any setting can be changed to see how the score fluctuates
 - Depth for AlphaBeta and MiniMax, execution time and computer level increase exponentially with depth
 - Paramter c for MCTS : function best_child(c_parameter), best results with c close to sqrt(2)
 - Number of simulations for MCTS : function best_action(), relevant results starting at ~5k, longer execution time starting at ~150k
